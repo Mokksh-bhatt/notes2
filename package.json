@@ -5,11 +5,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run build",
     "out": "next build && next export",
     "deploy2": "cross-env NODE_ENV=production firebase deploy --only functions,hosting",
     "deploy": "firebase deploy --only functions,hosting",
-    "start": "next start",
+    "start": "npm start run",
     "lint": "next lint",
     "export": "next export"
   },
