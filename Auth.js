@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import {getAuth} from 'firebase/auth'
 import { async } from "@firebase/util";
-import Loading from 'components/Loading'
+import Loading from './components/Loading'
 import Login from "./components/Login";
 import nookies from 'nookies';
 
